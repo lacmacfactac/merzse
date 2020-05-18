@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="header_element left">
+                    <img src="egyes%20szam.png">
+                </div>
+                <div class="header_element">
+                    <img src="audio.png">
+                </div>
+            </div>
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="animal1.html" class="fill_div">
+                        <img src="madar3.png">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="hangsav.png" onclick="play('madar3')">
+                    <audio id="madar3" src="STE-017.mp3"></audio>
+                </div>
+            </div>
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="animal1.html" class="fill_div">
+                        <img src="tucsok.png">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="hangsav.png" onclick="play('tucsok')">
+                    <audio id="tucsok" src="STE-012.mp3"></audio>
+                </div>
+            </div>
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="animal1.html" class="fill_div">
+                        <img src="madar2.png">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="hangsav.png" onclick="play('madar2')">
+                    <audio id="madar2" src="STE-009.mp3"></audio>
+                </div>
+            </div>
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="animal1.html" class="fill_div">
+                        <img src="madar1.png">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="hangsav.png" onclick="play('madar1')">
+                    <audio id="madar1" src="STE-002.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+    </script>
+
+</body></html>
