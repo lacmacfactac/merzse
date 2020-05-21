@@ -141,6 +141,7 @@ img {
 
 .round_border{
     border-radius: 50%;
+    -webkit-border-radius: 50%;
   border: .5vh solid white;
 }
 
