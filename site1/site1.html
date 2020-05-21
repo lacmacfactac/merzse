@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>merzse</title>
+    <meta name="description" content="Merzse Mocsár">
+    <meta name="author" content="lacmacfactac">
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="header_element left">
+                    <img src="../egyes%20szam.png">
+                </div>
+                <div class="header_element">
+                    <img src="audio.png">
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="facan.html" class="fill_div">
+                        <img class="round_border" src="f%C3%A1c%C3%A1n.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('madar3')">
+                    <!--<audio id="madar3" src="STE-017.mp3"></audio>!-->
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="feketerigo.html" class="fill_div">
+                        <img class="round_border" src="feketerigo.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('feketerigo')">
+                    <audio id="feketerigo" src="feketerigo.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="fulemule.html" class="fill_div">
+                        <img  class="round_border" src="f%C3%BClem%C3%BCle.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('fulemule')">
+                    <audio id="fulemule" src="f%C3%BClem%C3%BCle.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="galamb.html" class="fill_div">
+                        <img class="round_border" src="galamb.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('galamb')">
+                    <audio id="galamb" src="%C3%B6rv%C3%B6s%20galamb.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="harkaly.html" class="fill_div">
+                        <img class="round_border" src="hark%C3%A1ly.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('harkaly')">
+                    <!--<audio id="harkaly" src=""></audio>!-->
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="kakukk.html" class="fill_div">
+                        <img class="round_border" src="kakukk.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('kakukk')">
+                    <audio id="kakukk" src="kakukk.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="nagy_fakopancs.html" class="fill_div">
+                        <img class="round_border" src="nagy%20fakop%C3%A1ncs.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('nagy_fakopancs')">
+                    <audio id="nagy_fakopancs" src="nagy%20fakop%C3%A1ncs.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="tucsok.html" class="fill_div">
+                        <img class="round_border" src="t%C3%BCcs%C3%B6k.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('tucsok')">
+                    <audio id="tucsok" src="t%C3%BCcs%C3%B6k.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="vadgerle.html" class="fill_div">
+                        <img class="round_border" src="vadgerle.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('galamb')">
+                    <!--<audio id="galamb" src=""></audio>!-->
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="vorosbegy.html" class="fill_div">
+                        <img class="round_border" src="v%C3%B6r%C3%B6sbegy.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('vorosbegy')">
+                    <audio id="vorosbegy" src="v%C3%B6r%C3%B6sbegy.mp3"></audio>
+                </div>
+            </div>
+             
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+    </script>
+
+</body></html>

@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>merzse</title>
+    <meta name="description" content="Merzse Mocsár">
+    <meta name="author" content="lacmacfactac">
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="header_element left">
+                    <img src="../kettes%20szam.png">
+                </div>
+                <div class="header_element">
+                    <img src="audio.png">
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="beka.html" class="fill_div">
+                        <img class="round_border" src="unka%20b%C3%A9ka.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('beka')">
+                    <audio id="beka" src="b%C3%A9ka.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="nadirigo.html" class="fill_div">
+                        <img class="round_border" src="nadirigo.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('nadirigo')">
+                    <!--<audio id="nadirigo" src="rigo.mp3"></audio>!-->
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="tokesrece.html" class="fill_div">
+                        <img  class="round_border" src="t%C5%91k%C3%A9sr%C3%A9ce.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('tokesrece')">
+                    <audio id="tokesrece" src="t%C5%91k%C3%A9sr%C3%A9ce.mp3"></audio>
+                </div>
+            </div>
+            
+            <div class="header h_flex animal_bar">
+                <div class="animal_pic">
+                    <a href="vizityuk.html" class="fill_div">
+                        <img class="round_border" src="vizity%C3%BAk.jpg">
+                    </a>
+                </div>
+                <div class="waveform">
+                    <img src="../hangsav.png" onclick="play('vizityuk')">
+                    <audio id="vizityuk" src="vizity%C3%BAk.mp3"></audio>
+                </div>
+            </div>
+             
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+    </script>
+
+</body></html>

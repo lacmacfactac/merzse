@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>merzse</title>
+    <meta name="description" content="Merzse Mocsár">
+    <meta name="author" content="lacmacfactac">
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="left inner_animal_pic">
+                    <img class ="round_border" src="vadgerle.jpg">
+                </div>
+                <div class="animal_title">
+                    Nope
+                    <p class ="latin">Nope</p>
+                </div>
+            </div>
+            <div class="animal_description">
+                Nope
+            </div>
+            <div class = "inner_waveform">
+                <img src="../hangsav.png" onclick="play('audio')">
+                <audio id="audio" src="STE-012.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+
+    </script>
+
+</body>
+
+</html>

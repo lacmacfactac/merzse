@@ -11,7 +11,7 @@ body {
 @media only screen and (orientation: landscape) {
     .maximum_wide {
         width: 30%;
-        min-width: 300px;
+        min-width: 400px;
         max-width: 600px;
     }
 }
@@ -60,14 +60,45 @@ body {
 }
 
 .animal_pic {
-    width: 40%; /* should be 20%, but works weird */
+    width: 30%;
+    height: auto;
+}
+.inner_animal_pic {
+    width: 20%;
     height: auto;
 }
 
 .animal_title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+    line-height: 0.3;
+    color: white;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+.latin{
+   font-size: 60%; 
+}
 
-    width: 40%;
+.animal_description {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+   text-align: justify;
+    width: 100%;
     height: auto;
+}
+
+.waveform{
+    margin-left: 3%;
+    
+}
+
+.inner_waveform{
+    margin-top: 5%;
+    
 }
 
 .header_element {
@@ -108,6 +139,10 @@ img {
     width: 100%;
 }
 
+.round_border{
+    border-radius: 50%;
+  border: .5vh solid white;
+}
 
 
 a.fill_div {

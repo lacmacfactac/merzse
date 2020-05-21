@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>merzse</title>
+    <meta name="description" content="Merzse Mocsár">
+    <meta name="author" content="lacmacfactac">
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="left inner_animal_pic">
+                    <img class ="round_border" src="t%C5%91k%C3%A9sr%C3%A9ce.jpg">
+                </div>
+                <div class="animal_title">
+                    Tőkésréce
+                    <p class ="latin">Anas platyrhynchos</p>
+                </div>
+            </div>
+            <div class="animal_description">
+                Egész Európában, Ázsia és Észak-Amerika jelentős részén elterjedt, a Kárpát-medencében a leggyakoribb récefaj. A házikacsa őse. Kóborló egyedei sokfelé eljutnak, így Afrikába, Közép- és Dél-Amerikába is. Az ember is segítette elterjedési területe megnövelését, mivel betelepítette az Egyesült Államok keleti részébe, a Bermuda-szigetekre, Ausztrália, Új-Zéland és Új-Kaledónia területére is. Onnan a faj sokfelé eljutott kóborlásai során, így a Csendes-óceán sok szigetén észlelték már. Ezen felül betelepítették a Francia déli területek több szigetére, így a Kerguelen-szigetekre, továbbá a Falkland-szigetekre és a Macquarie-szigetre is.A gácsér csőre zöldessárga, feje fémesen csillogó zöld, nyakán fehér gallér van, melle gesztenyebarna, oldala és hasa világosszürke. Testének felső része, a nyak tövétől a hát közepéig, valamint a szárnyai külső felülete barnásszürke, a hát közepétől kezdődően kékesfekete, egészen a farokig, melynek oldalsó szegélyét a fehér színű kormánytollak alkotják. A farok közepén 3-4 szál fekete, visszahajló, ún. gácsértollat visel. Szárnyai belső oldalai sárgásfehérek.
+            </div>
+            <div class = "inner_waveform">
+                <img src="../hangsav.png" onclick="play('audio')">
+                <audio id="audio" src=""></audio>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+
+    </script>
+
+</body>
+
+</html>

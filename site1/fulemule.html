@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>merzse</title>
+    <meta name="description" content="Merzse Mocsár">
+    <meta name="author" content="lacmacfactac">
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="left inner_animal_pic">
+                    <img class ="round_border" src="f%C3%BClem%C3%BCle.jpg">
+                </div>
+                <div class="animal_title">
+                    Fülemüle
+                    <p class ="latin">Luscinia megarhynchos</p>
+                </div>
+            </div>
+            <div class="animal_description">
+                A fülemüle, más néven csalogány (Luscinia megarhynchos) a madarak (Aves) osztályának verébalakúak (Passeriformes) rendjébe, ezen belül a légykapófélék (Muscicapidae) családjába tartozó faj. A Magyar Madártani és Természetvédelmi Egyesület 1995-ben „Az év madarává” választotta. Az egyik legismertebb énekesmadárfaj Magyarországon. Maga a fülemüle szó a görög Philoméla (Φιλομήλα), egy ókori mitológiai személy nevéből származik. Európában, Kelet- és Közép-Ázsiában költ. A Kárpát-medencébe áprilisban jön, és szeptember közepéig marad, a telet Nyugat- vagy Közép-Afrikában tölti. A földön vagy bokrok tövén található rovarokkal, férgekkel, pondrókkal táplálkozik, így a kert- és termőföld-tulajdonosok segítője. Fogságban elpusztul.A legzeneibben éneklő énekesmadár, a dal királyának is nevezik, az udvarló hímek hangja májusi éjszakákon zeng. Gégéje négy hangot képes egyidejűleg kiadni, zeneileg tökéletes akkordokat is énekel.[1] A tojó nem énekel. A földön vagy bokrok tövén található rovarokkal, férgekkel, pondrókkal táplálkozik, így a kert- és termőföld-tulajdonosok segítője. Fogságban elpusztul.A legzeneibben éneklő énekesmadár, a dal királyának is nevezik, az udvarló hímek hangja májusi éjszakákon zeng. Gégéje négy hangot képes egyidejűleg kiadni, zeneileg tökéletes akkordokat is énekel. A tojó nem énekel.
+            </div>
+            <div class = "inner_waveform">
+                <img src="../hangsav.png" onclick="play('audio')">
+                <audio id="audio" src="f%C3%BClem%C3%BCle.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+
+    </script>
+
+</body>
+
+</html>

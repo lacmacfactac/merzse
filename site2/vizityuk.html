@@ -7,7 +7,8 @@
     <meta name="description" content="Merzse Mocsár">
     <meta name="author" content="lacmacfactac">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
 
 </head>
 
@@ -15,17 +16,20 @@
     <div class="main_container maximum_wide">
         <div class="v_flex">
             <div id="site_header" class="header h_flex">
-                <div class="left animal_pic">
-                    <img src="tucsok.png">
+                <div class="left inner_animal_pic">
+                    <img class ="round_border" src="vizity%C3%BAk.jpg">
                 </div>
                 <div class="animal_title">
-                    <img src="felirat%20tucsok.png">
+                    Nope
+                    <p class ="latin">Nope</p>
                 </div>
             </div>
-            <img src="leiras.png">
-            <div>
-                <img src="hangsav.png" onclick="play('tucsok')">
-                <audio id="tucsok" src="STE-012.mp3"></audio>
+            <div class="animal_description">
+                Nope
+            </div>
+            <div class = "inner_waveform">
+                <img src="../hangsav.png" onclick="play('audio')">
+                <audio id="audio" src="STE-012.mp3"></audio>
             </div>
         </div>
     </div>
@@ -35,6 +39,9 @@
             var audio = document.getElementById(playID);
             audio.play();
         }
+
     </script>
 
-</body></html>
+</body>
+
+</html>

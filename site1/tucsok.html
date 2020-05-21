@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>merzse</title>
+    <meta name="description" content="Merzse Mocsár">
+    <meta name="author" content="lacmacfactac">
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main_container maximum_wide">
+        <div class="v_flex">
+            <div id="site_header" class="header h_flex">
+                <div class="left inner_animal_pic">
+                    <img class ="round_border" src="t%C3%BCcs%C3%B6k.jpg">
+                </div>
+                <div class="animal_title">
+                    Mezei Tücsök
+                    <p class ="latin">Gryllus campestris</p>
+                </div>
+            </div>
+            <div class="animal_description">
+                Az ízeltlábúak (Arthropoda) törzsének, a rovarok (Insecta) osztályának és az egyenesszárnyúak (Orthoptera) rendjének egyik La Fontaine által megénekelt faja. A mezei tücsök Nyugat-, Közép- és Dél-Európában, valamint Észak-Afrikában és Nyugat Ázsiában él. Magyarországon is gyakori. Napsütötte legelők, rétek, füves domboldalak, vasúti töltések és más száraz élőhelyek gyakori lakója. A mezei tücsök hossza 20-26 milliméter. Szájszerve rágókból áll; ásásra és táplálkozásra alkalmasak. Szárnyai repülésre alkalmatlanok; a hátsó szárnyak kicsik. A rovart zömök, fényes fekete testéről és jókora, sisakszerű fejéről lehet könnyen felismerni. Csápjai hosszúak és vékonyak. Jellemző még a hátulsó comb alsó felének piros színe. A hátsó lábak erősen megnagyobbodtak, izomzatuk erős, hogy ásáskor és ugráskor támasztékul szolgáljanak. E rovarnál a hallószerv nem a fején van, hanem az elülső lábszáron. A tücsök behajlítja lábát, hogy egy hangforrással összehangolja és megállapítsa, honnan jön a hang. A tücskök a ciripelő hangot (tudományos nevén stridulation) szárnyaik összedörzsölésével képzik. Az úgynevezett ciripelő erek, amik kb. úgy néznek ki, mint egy fésű, a szárnyon találhatók, és ezek összedörzsölésével képzi a tücsök a hangot. Az egyik szárny tetejét dörzsölik a másik szárny aljához.
+            </div>
+            <div class = "inner_waveform">
+                <img src="../hangsav.png" onclick="play('audio')">
+                <audio id="audio" src="t%C3%BCcs%C3%B6k.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function play(playID) {
+            var audio = document.getElementById(playID);
+            audio.play();
+        }
+
+    </script>
+
+</body>
+
+</html>
